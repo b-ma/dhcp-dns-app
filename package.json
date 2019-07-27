@@ -1,0 +1,30 @@
+{
+  "name": "DnsmasqUi",
+  "version": "0.1.0",
+  "description": "DnsmasqUi application build with Electron",
+  "repository": "",
+  "dependencies": {
+    "electron": "^5.0.8",
+    "lit-html": "^1.1.1"
+  },
+  "author": {
+    "name": "Benjamin Matuszewski",
+    "email": ""
+  },
+  "devDependencies": {
+    "@open-wc/building-webpack": "^2.4.2",
+    "bozon": "0.10.0",
+    "mocha": "^6.1.4",
+    "spectron": "^5.0.0"
+  },
+  "build": {
+    "appId": "com.electron.dnsmasqui",
+    "win": {
+      "publish": null
+    },
+    "mac": {
+      "publish": null,
+      "category": "your.app.category.type"
+    }
+  }
+}
