@@ -4,7 +4,7 @@
   "description": "DnsmasqUi application build with Electron",
   "repository": "",
   "dependencies": {
-    "electron": "^5.0.8",
+    "electron": "^15.5.5",
     "lit-html": "^1.1.1"
   },
   "author": {
